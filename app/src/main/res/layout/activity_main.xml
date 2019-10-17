@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/editID"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter id"
+        android:textColorHint="#B3FFFFFF"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:background="#8003A9F4"/>
+    <EditText
+        android:id="@+id/editNameID"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter name"
+        android:textColorHint="#B3FFFFFF"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:background="#8003A9F4"/>
+    <EditText
+        android:id="@+id/editAgeID"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter age"
+        android:textColorHint="#B3FFFFFF"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:background="#8003A9F4"/>
+    <EditText
+        android:id="@+id/editGenderID"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter gender"
+        android:textColorHint="#B3FFFFFF"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:background="#8003A9F4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        >
+        <Button
+            android:id="@+id/saveButtonID"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Save Data"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:background="#03A9F4"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/displayButtonID"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Display Data"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:background="#FF9800"
+            android:layout_margin="5dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <Button
+            android:id="@+id/updateButtonID"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Update Data"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:background="#9C27B0"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/deleteButtonID"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Delete Data"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:background="#C22121"
+            android:layout_margin="5dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:id="@+id/textID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
